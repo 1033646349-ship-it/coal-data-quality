@@ -1,0 +1,10 @@
+# 煤矿生产数据质量监控与分析平台 —— 依赖清单
+# 安装命令：pip install -r requirements.txt
+# 使用兼容版本区间，pip 会自动选择当前 Python 可用的最新兼容版本。
+
+Flask>=3.0          # Web 后端框架（学习平台）
+pandas>=2.0         # 数据处理与清洗
+numpy>=1.24         # 数值计算
+matplotlib>=3.7     # 数据可视化（静态图）
+streamlit>=1.12     # 数据看板（若你的 Python 较新，pip 会自动选更高版本）
+plotly>=5.15        # 交互图表（看板内使用）

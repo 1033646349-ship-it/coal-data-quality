@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# 数据库（学习进度，可重置）
+*.db
+*.sqlite3
+
+# 输出与临时
+output/
+*.log
+
+# IDE
+.idea/
+.vscode/
+.DS_Store
